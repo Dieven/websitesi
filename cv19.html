@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Korona Virüsü</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header
+{
+  padding: 2px;
+  text-align: center;
+  background: #000000;
+  color: rgb(210, 255, 126);
+}
+
+.header h1 
+{
+  font-size: 40px;
+}
+
+.navbar 
+{
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a 
+{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right 
+{
+  float: right;
+}
+
+.navbar a:hover 
+{
+  background-color: #ddd;
+  color: black;
+}
+
+.row 
+{  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+.side 
+{
+  -ms-flex: 30%;
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main 
+{   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.fakeimg 
+{
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Covid 19</h1>
+  <p>2020'nin Ölümcül Virüsü</p>
+</div>
+
+<div class="navbar">
+  <a href="cv19.html">Anasayfa</a>
+  <a href="iletisim.html">İletişim</a>
+  <a href="turkiyeing.html">Türkiye ve İngiltere Kıyaslaması</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Covid 19 Aşısı Haberi</h2>
+    <h4>13 Ocak 2020</h4>
+    <img src="asihaberi.jpg" alt= "Aşı Haberi" style="height:200px;">
+    <p>Covid 19 aşısı Cumhurbaşkanımız da dahil olmak üzere 600 binden fazla kişiye vurulmuştur.</p>
+    <h2>Doktor Hayatını Kaybetti!</h2>
+    <h4>8 Aralık 2020</h4>
+    <img src="abdlidok.jpg" alt ="ABD'li Doktor" style="height:200px;">
+    <p>Florida’da bir hastanede çalışan Gregory Michael, 18 aralıkta aşının ilk dozunu aldıktan 3 gün sonra
+       ellerinde ve ayaklarında küçük lekeler ortaya çıktı. 
+       Daha sonrasında yoğun bakıma alınan Neckelmann, 
+       kısa süre içerisinde hayatını kaybetti. </p>
+    <h2>Almanya'da İlk Covid-19 Aşısı</h2>
+    <h4>26 Aralık 2020</h4>
+    <img src="almanyaasi.jpg" alt ="Alamnyaşı" style="height:200px;">
+    <p>Almanya'da Prof. Dr. Uğur Şahin'in kurucu ortağı ve CEO'su olduğu BioNTech ile Pfizer tarafından geliştirilen 
+        koronavirüs (Kovid-19) aşısı, 101 yaşındaki Edith Kwoizalla’ya yapıldı.</p>  </div>
+  <div class="main">
+    <h2>Covid-19 Hakkında</h2>
+    <h5>Covid-19 Nedir?</h5>
+    <img src="coronavirus.png" alt="Korona" style="height:400px;">
+    <p>İlk olarak Çin'in Wuhan bölgesinde, 2019 yılı Aralık ayının başında görülmüş olup bu bölgede bulunan yetkililer tarafından tanımlandığı için gayri resmi Wuhan virüsü olarak da bilinir.
+        Bu virüs solunum yolu enfeksiyonuna sebep olan ve insandan yalnızca insana bulaşan bir virüstür.
+        Dünya Sağlık Örgütü (WHO), virüsün resmi adını SARS-CoV-2 (Şiddetli Akut Solunum Sendromu-Koronavirus-2) olarak belirlenmiştir.
+        WHO, bu virüsün sebep olduğu hastalığı tanımlamak için COVID-19 terimini kullanmaktadır.
+        Koronavirüsler, elektron mikroskobuyla bakıldığından yuvarlak ve üzerinde çıkıntıları olan bir taça benzetildiği için, Latince’de
+         taç anlamına gelen koronadan kelimesiyle adlandırılmışlardır.
+    </p>
+    <h5>Yeni Covid-19 Nedir?</h5>
+    <p>Yeni koronavirüs hastalığı (Covid-19), ilk olarak 13 Ocak 2020 tarihinde Çin’in Vuhan eyaletinde yüksek ateş ve nefes darlığı ile tanımlanan yeni viral solunum yolu hastalığıdır. 
+        Hastalığın damlacık ve temas yoluyla bulaştığı bilinmektedir. Oluşturduğu küresel salgın durumundan ötürü pandemi olarak tanımlanmaktadır.
+        Yeni koronavirüs hem hayvanları, hem de insanları etkileyebilen koronavirüs ailesinin bir türüdür. 
+        Geçmişe bakıldığında koronavirüs ailesinden bazı farklı virüslerin, MERS (Orta Doğu Solunum Sendromu) ve 
+        SARS (Şiddetli Akut Solunum Sendromu) gibi şiddetli görülen solunum hastalıklarına sebep olduğu görülmektedir.
+
+    </p>
+    <br>
+    <h2>Covid-19 Belirtileri</h2>
+    <h5>Peki tüm dünyada pandemiye sebep olan bu virüsün sizde de olabileceğini nasıl anlarsınız? İşte belirtileri...</h5>
+    <img src="oksuruk.jpg" alt = "Öksürük" style="height:400px;">
+    <p>Covid-19'un en yaygın semptomları;</p>
+    <p><li>Ateş</li></p>
+    <p><li>Kuru Öksürük</li></p>
+    <p><li>Yorgunluk</li></p>
+    <p>Daha seyrek olarak görülen semptomlar;</p>
+    <p><li>Ağrı ve Sızı</li></p>
+    <p><li>Boğaz Ağrısı</li></p>
+    <p><li>İshal</li></p>
+    <p><li>Konjonktivit</li></p>
+    <p><li>Baş Ağrısı</li></p>
+    <p><li>Tat veya Koku Duyusunun Kaybı</li></p>
+    <p><li>Ciltte Döküntü ya da El ve Ayak Parmaklarında Renk Değişimi</li></p>
+    <p>Ciddi Semptomlar;</p>
+    <p><li>Solunum Güçlüğü veya Nefes Darlığı</li></p>
+    <p><li>Göğüs Ağrısı veya Göğüste Baskı</li></p>
+    <p><li>Konuşma veya Hareket Kaybı</li></p>
+
+
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
